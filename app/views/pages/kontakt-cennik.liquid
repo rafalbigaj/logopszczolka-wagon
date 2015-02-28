@@ -1,54 +1,74 @@
 ---
 title: Contact
-slug: kontakt-cennik
+
+# true if the page is included in the menu
 listed: true
+
+# true if the page is published
 published: true
-cache_strategy: none
-response_type: text/html
-position: 102
-editable_elements:
-  "/content": "<h2>O Pszczółce</h2>\r\n<p>Misją <strong>Gabinetu Logopedycznego Pszczółka</strong>
-    jest <strong>gruntowna diagnoza</strong> (na którą składa się badanie wszystkich
-    funkcji psychicznych, fizycznych i ocena rozwoju mowy dziecka) oraz <strong>efektywna
-    indywidualna terapia</strong>.</p>\r\n<p>Gabinet Logopedyczny Pszczółka opieką
-    obejmuje już <strong>kilkumiesięczne niemowlęta</strong>, gdyż <strong>wczesna
-    interwencja logopedyczna</strong> daje dziecku szansę na prawidłowy rozwój.</p>\r\n<p><strong>Stymulacji
-    </strong>takiej powinny zostać poddane dzieci, u których zauważa się brak pewnych
-    <strong>zachowań komunikacyjnych</strong> (m.in.: brak kontaktu wzrokowego, niepodążanie
-    wzrokiem za bliskimi, brak gaworzenia).</p>\r\n<p>U dzieci starszych prowadzona
-    jest <strong>terapia wad wymowy</strong>, takich jak: <strong>niezakończony rozwój
-    mowy</strong>, <strong>opóźniony rozwój mowy</strong>, <strong>seplenienie</strong>,
-    <strong>kapacyzm</strong>,<strong> reranie</strong>.</p>\r\n<p>W zakresie działalności
-    <strong>Gabinetu Logopedycznego Pszczółka</strong> leży także <a href=\"/dyslektyk-profilaktyka/_edit\"><strong>profilaktyka
-    i terapia dysleksji</strong></a>, diagnozowanie w kierunku <strong>zagrożenia
-    dysleksją</strong>, a także <strong>terapia zaburzeń mowy i komunikacji</strong>
-    o typie <a href=\"/afazja-alalia-autyzm/_edit\"><strong>afazji</strong>,<strong>
-    alalii </strong>i <strong>autyzmu</strong></a>.</p>\r\n<p>Terapia prowadzona jest
-    <strong>Metodą Krakowską</strong> i opiera się na <a href=\"/metoda-sylabowa\"><strong>nauce
-    czytania </strong></a><strong>metodą symultaniczno-sekwencyjną</strong> autorstwa
-    <strong>prof. Jagody Cieszyńskiej</strong>.</p>"
+
+# position among sibling pages
+# position: 1
+
+# sets a redirection to the given url (301)
+# redirect_url: "<url to a page or to a remote url>"
+
+# content type that this page is templatizing
+# content_type: "<slug of one of the content types>"
+
+# editable_elements:
+#   'some_block/some_slug': "<text>"
+#   'some_block/some_slug': "<relative path to the file under the public/samples folder>"
 ---
 {% extends parent %}
+
 {% block main %}
-<h2>
-  Kontakt i Cennik
-</h2>
-<p>
-  Gabinet Logopedyczny Pszczółka w Krakowie
-</p>
-mgr Maria Bigaj – logopeda  - Kraków**                                         mgr  Justyna Guzik – logopeda – Kraków**
-Tel.: +48 512 237 215                                                                                   Tel.: +48 692 904 155
-E-mail: gabinet@logopszczolka.pl
-Gabinet Logopedyczny w Krakowie                                                     (mała mapka)
-ul. Moniuszki 18/9
-31-523 Kraków
-NIP: 736-147-55-96
-Terapia logopedyczna prowadzona jest w trybie indywidualnym.
-Regularne spotkanie z logopedą trwa godzinę zegarową.
-Rodzaj spotkania        Cena**
-Spotkanie terapeutyczne 60PLN / 1 godz.
-Diagnoza        60PLN / 1 godz.*
-* Czas trwania diagnozy jest uzależniony od rodzaju zaburzenia i predyspozycji dziecka.
-**Każdy logopeda prowadzi zajęcia w gabinecie w Krakowie, istnieje także możliwość  dojazdu do miejsca zamieszkania dziecka niepełnosprawnego na terenie miasta Kraków i jego okolic.
-Koszt i plan terapii logopedycznej ustalany jest w takim przypadku z logopedą indywidualnie.
+{% editable_text 'content' %}
+
+<h2>Kontakt i Cennik</h2>
+<p><strong>Gabinet Logopedyczny Pszcz&oacute;łka w Krakowie</strong></p>
+<p>mgr Maria Bigaj &ndash; logopeda - Krak&oacute;w**<br /> Tel.: +48 512 237 215</p>
+<p>mgr Justyna Guzik &ndash; logopeda - Krak&oacute;w**<br /> Tel. +48 692 904 155</p>
+<p>E-mail: <a href="mailto:gabinet@logopszczolka.pl">gabinet@logopszczolka.pl</a></p>
+<p><strong>Gabinet Logopedyczny w Krakowie</strong></p>
+<p>ul. Moniuszki 18/9<br /> 31-523 <strong>Krak&oacute;w </strong></p>
+<p>NIP: 736-147-55-96</p>
+<p>&nbsp;</p>
+<p><strong>Terapia logopedyczna</strong> prowadzona jest w trybie indywidualnym.</p>
+<p>Regularne spotkanie z <strong>logopedą</strong> trwa godzinę zegarową.</p>
+<p>&nbsp;</p>
+<table style="width: 100%;" border="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+<p><strong>Rodzaj spotkania</strong></p>
+</td>
+<td>
+<p><strong>Cena**</strong></p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Spotkanie terapeutyczne</p>
+</td>
+<td>
+<p>60PLN / 1 godz.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Diagnoza</p>
+</td>
+<td>
+<p>60PLN / 1 godz.*</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><sup>*</sup> Czas trwania diagnozy jest uzależniony od rodzaju zaburzenia i predyspozycji dziecka.</p>
+<p>&nbsp;</p>
+<p>**Każdy <strong>logopeda </strong>prowadzi zajęcia w <strong>gabinecie</strong> <strong>w Krakowie</strong>, istnieje także możliwość&nbsp; dojazdu do miejsca zamieszkania dziecka niepełnosprawnego na terenie miasta<strong> Krak&oacute;w</strong> i jego okolic.</p>
+<p>Koszt i plan <strong>terapii logopedycznej</strong> ustalany jest w takim przypadku z <strong>logopedą </strong>indywidualnie.</p>
+
+{% endeditable_text %}
 {% endblock %}

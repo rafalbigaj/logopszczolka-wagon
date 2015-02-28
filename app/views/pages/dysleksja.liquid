@@ -6,28 +6,33 @@ published: false
 cache_strategy: none
 response_type: text/html
 position: 106
-editable_elements:
-  "/content": "<h2>Dysleksja</h2>\r\n<p><strong>Dysleksja</strong> to obecnie problem
-    cywilizacyjny, kt&oacute;remu można jednak zaradzić.</p>\r\n<p>Objawy <strong>ryzyka
-    dysleksji</strong> można zaobserwować już w wieku poniemowlęcym i przedszkolnym,
-    i stymulować zagrożone funkcje.</p>\r\n<p><strong>Terapia dysleksji</strong> opiera
-    się na <strong>nauce czytania metodą symultaniczno- sekwencyjną</strong> i <strong>stymulacji
-    mechanizm&oacute;w lewop&oacute;łkulowych</strong>, w połączeniu z <strong>ćwiczeniami
-    og&oacute;lnorozwojowymi</strong>.</p>\r\n<p>&nbsp;</p>\r\n<p><strong>Prof. Jagoda
-    Cieszyńska</strong> definiuje <strong>dysleksję</strong> jako <strong>trudności
-    z linearnym uporządkowaniem wszelkiego rodzaju informacji</strong>, u podstaw
-    kt&oacute;rych leży <strong>brak dominacji lewej p&oacute;łkuli</strong> i <strong>prawidłowego
-    kształtowania się lateralizacji</strong>.</p>\r\n<p>Niepok&oacute;j budzi fakt
-    diagnozowania dzieci pod kątem <strong>dysleksji</strong> na zaawansowanym etapie
-    nauki szkolnej. Tymczasem diagnoza jest możliwa w 1. roku nauki szkolnej, a dużo
-    wcześniej można m&oacute;wić o <strong>zagrożeniu dysleksją</strong>. Działania
-    profilaktyczne powinny wyprzedzić <strong>naukę czytania i pisania.</strong></p>\r\n<p><strong>Gabinet
-    Logopedyczny Pszcz&oacute;łka </strong>oferuje przeprowadzenie <strong>testu zagrożenia
-    dysleksją</strong> u dzieci w wieku przedszkolnym. <strong>Logopeda</strong> sprawdza
-    wszystkie umiejętności dziecka, lateralizację, dostosowuje <strong>terapię </strong>do
-    indywidualnych potrzeb dziecka.</p>\r\n<p>&nbsp;</p>\r\n<p>Prowadzona jest także
-    <strong>diagnoza i terapia logopedyczna</strong> dzieci w wieku szkolnym, kt&oacute;ra
-    ma pom&oacute;c małemu <strong>dyslektykowi</strong> w trudnościach szkolnych
-    i codziennych związanych z <strong>dysleksją</strong>.</p>"
 ---
 {% extends 'parent' %}
+
+{% block main %}
+{% editable_text 'content' %}
+
+<h2>Dysleksja</h2>
+<p><strong>Dysleksja</strong> to obecnie problem cywilizacyjny, któremu można jednak zaradzić.</p>
+<p>Objawy <strong>ryzyka dysleksji</strong> można zaobserwować już w wieku poniemowlęcym i przedszkolnym, 
+i stymulować zagrożone funkcje.</p>
+<p><strong>Terapia dysleksji</strong> opiera się na <strong>nauce czytania metodą symultaniczno- sekwencyjną</strong> 
+i <strong>stymulacji mechanizmów lewopółkulowych</strong>, w połączeniu 
+z <strong>ćwiczeniami ogólnorozwojowymi</strong>.</p>
+<p>&nbsp;</p>
+<p><strong>Prof. Jagoda Cieszyńska</strong> definiuje <strong>dysleksję</strong> jako <strong>trudności 
+z linearnym uporządkowaniem wszelkiego rodzaju informacji</strong>, u podstaw których leży <strong>brak
+dominacji lewej półkuli</strong> i <strong>prawidłowego kształtowania się lateralizacji</strong>.</p>
+<p>Niepokój budzi fakt diagnozowania dzieci pod kątem <strong>dysleksji</strong> na zaawansowanym etapie nauki
+szkolnej. Tymczasem diagnoza jest możliwa w 1. roku nauki szkolnej, a dużo wcześniej można mówić
+o <strong>zagrożeniu dysleksją</strong>. Działania profilaktyczne powinny wyprzedzić <strong>naukę czytania
+i pisania.</strong></p>
+<p><strong>Gabinet Logopedyczny Pszczółka </strong>oferuje przeprowadzenie <strong>testu zagrożenia dysleksją</strong>
+u dzieci w wieku przedszkolnym. <strong>Logopeda</strong> sprawdza wszystkie umiejętności dziecka, lateralizację,
+dostosowuje <strong>terapię </strong>do indywidualnych potrzeb dziecka.</p>
+<p>&nbsp;</p>
+<p>Prowadzona jest także <strong>diagnoza i terapia logopedyczna</strong> dzieci w wieku szkolnym, która ma pomóc
+małemu <strong>dyslektykowi</strong> w trudnościach szkolnych i codziennych związanych z <strong>dysleksją</strong>.</p>
+
+{% endeditable_text %}
+{% endblock %}

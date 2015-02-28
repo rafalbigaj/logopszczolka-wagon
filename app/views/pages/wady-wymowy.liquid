@@ -6,23 +6,39 @@ published: false
 cache_strategy: none
 response_type: text/html
 position: 103
-editable_elements:
-  "/content": "<h2><strong>Wady wymowy</strong></h2>\r\n<p><strong>Gabinet Logopedyczny
-    Pszcz&oacute;łka</strong> zajmuje się terapią takich <strong>wad wymowy</strong>,
-    jak:</p>\r\n<ul>\r\n<li>\r\n<p><strong>niezakończony rozw&oacute;j mowy - </strong>Dziecko
-    do 5. roku życia zastępuje głoskę, kt&oacute;rej nie wymawia, inną głoską (wiek
-    5 lat jest cezurą umowną; w związku z proponowanymi przez Ministerstwo Oświaty
-    zmianami, trzeba stwierdzić <strong>niezakończony rozw&oacute;j mowy</strong>
-    rok wcześniej).</p>\r\n</li>\r\n</ul>\r\n<ul>\r\n<li>\r\n<p><strong>op&oacute;źniony
-    rozw&oacute;j mowy - </strong>Jeśli dziecko do momentu rozpoczęcia <strong>nauki
-    czytania</strong> (umownie: wiek 6 lat) nie opanowało prawidłowej realizacji wszystkich
-    głosek.</p>\r\n</li>\r\n</ul>\r\n<ul>\r\n<li>\r\n<p><strong>kapacyzm - </strong>Dziecko
-    zastępuje głoski k i g odpowiednio głoskami t i d (przykładowo: <em>koń-&gt; toń</em>,
-    <em>guma -&gt; duma</em>).</p>\r\n</li>\r\n</ul>\r\n<ul>\r\n<li>\r\n<p><strong>seplenienie
-    - </strong>Dziecko nieprawidłowo realizuje nieprawidłowa realizuje głoski: s,
-    z, c, dz, ś, ź, ć, dź, sz, ż, cz, dż (przykładowo: <em>szary -&gt; sary/ siary,
-    żaba -&gt; zaba/ ziaba, czapka -&gt; capka/ ciapka, dżokej -&gt; dzokej/ dziokej</em>).</p>\r\n</li>\r\n</ul>\r\n<ul>\r\n<li>\r\n<p><strong>reranie
-    - </strong>W mowie dziecka brakuje głoski r lub pojawia się ona w nieprawidłowych
-    formach (przykładowo: <em>ryba-&gt; _yba/ jyba/ lyba</em>).</p>\r\n</li>\r\n</ul>"
 ---
 {% extends 'parent' %}
+
+{% block main %}
+{% editable_text 'content' %}
+
+<h2><strong>Wady wymowy</strong></h2>
+<p><strong>Gabinet Logopedyczny Pszczółka</strong> zajmuje się terapią takich <strong>wad wymowy</strong>, jak:</p>
+<ul>
+<li>
+<p><strong>niezakończony rozwój mowy - </strong>Dziecko do 5. roku życia zastępuje głoskę, której nie wymawia, inną głoską (wiek 5 lat jest cezurą umowną; w związku z proponowanymi przez Ministerstwo Oświaty zmianami, trzeba stwierdzić <strong>niezakończony rozwój mowy</strong> rok wcześniej).</p>
+</li>
+</ul>
+<ul>
+<li>
+<p><strong>opóźniony rozwój mowy - </strong>Jeśli dziecko do momentu rozpoczęcia <strong>nauki czytania</strong> (umownie: wiek 6 lat) nie opanowało prawidłowej realizacji wszystkich głosek.</p>
+</li>
+</ul>
+<ul>
+<li>
+<p><strong>kapacyzm - </strong>Dziecko zastępuje głoski k i g odpowiednio głoskami t i d (przykładowo: <em>koń-&gt; toń</em>, <em>guma -&gt; duma</em>).</p>
+</li>
+</ul>
+<ul>
+<li>
+<p><strong>seplenienie - </strong>Dziecko nieprawidłowo realizuje nieprawidłowa realizuje głoski: s, z, c, dz, ś, ź, ć, dź, sz, ż, cz, dż (przykładowo: <em>szary -&gt; sary/ siary, żaba -&gt; zaba/ ziaba, czapka -&gt; capka/ ciapka, dżokej -&gt; dzokej/ dziokej</em>).</p>
+</li>
+</ul>
+<ul>
+<li>
+<p><strong>reranie - </strong>W mowie dziecka brakuje głoski r lub pojawia się ona w nieprawidłowych formach (przykładowo: <em>ryba-&gt; _yba/ jyba/ lyba</em>).</p>
+</li>
+</ul>
+
+{% endeditable_text %}
+{% endblock %}

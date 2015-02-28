@@ -15,9 +15,9 @@ table#floater {
   > tbody > tr > td {
     background-color: #81d8e3;
     background-image: url(../images/bg.jpg);
-    background-position: -150px -200px;
+    background-position: -80px -200px;
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: auto 70%;
   }
 }
 
@@ -136,7 +136,7 @@ h2 {
     text-shadow: 0px 0px 3px #FFF;
     font-weight: bold;
     color: #14181F;
-    font-family: Calibri, sans;
+    /*font-family: Calibri, sans;*/
     font-size: 16px;
     text-align: center;
     text-decoration: none;
@@ -300,7 +300,7 @@ h2 {
     font-weight: bold;
     color: #fff799;
     color: #F2EC9D;
-    font-family: Calibri, sans;
+    /*font-family: Calibri, sans;*/
     font-size: 16pt;
     text-align: center;
     text-decoration: none;
@@ -369,3 +369,20 @@ h2 {
   background-color: rgba(232, 248, 253, 0.95);
   background-color: rgba(247, 247, 253, 0.90);
 }
+
+/* Helpers */
+
+.top-buffer { margin-top:20px; }
+
+/* Q&A */
+
+blockquote {
+  &.question {
+    border-color: #4B77B9;
+  }
+
+  &.answer {
+    border-color: #9dd24c;
+  }
+}
+

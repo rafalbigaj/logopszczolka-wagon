@@ -6,32 +6,74 @@ published: false
 cache_strategy: none
 response_type: text/html
 position: 104
-editable_elements:
-  "/content": "<h2><strong>Zaburzenia komunikacji językowej</strong></h2>\r\n<p><strong>Gabinet
-    Logopedyczny Pszcz&oacute;łka</strong> pomaga dzieciom z <strong>zaburzeniami
-    komunikacji językowej</strong> u podstaw kt&oacute;rych leży:</p>\r\n<ul>\r\n<li>\r\n<p><strong>afazja,
-    </strong></p>\r\n</li>\r\n<li>\r\n<p><strong>alalia, </strong></p>\r\n</li>\r\n<li>\r\n<p><strong>dysartria,
-    </strong></p>\r\n</li>\r\n<li>\r\n<p><strong>autyzm, </strong></p>\r\n</li>\r\n<li>\r\n<p><strong>zesp&oacute;ł
-    Aspergera, </strong></p>\r\n</li>\r\n<li>\r\n<p><strong>FAS, </strong></p>\r\n</li>\r\n<li>\r\n<p><strong>zespołu
-    kruchego chromosomu, </strong></p>\r\n</li>\r\n<li>\r\n<p><strong>zesp&oacute;ł
-    Downa</strong></p>\r\n</li>\r\n<li>\r\n<p>i inne<strong> schorzenia neurologiczne
-    i genetyczne</strong>.</p>\r\n</li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p>Sygnałem do
-    rozpoczęcia <strong>terapii logopedycznej</strong> jest nie tylko <strong>diagnoza
-    pediatryczna lub specjalistyczna</strong> (jak w przypadku <strong>afazji</strong>,<strong>
-    alalii</strong>,<strong> zespołu Downa</strong>), ale przede wszystkim niepokojące
-    opiekun&oacute;w zachowanie dziecka, kt&oacute;re:</p>\r\n<ul>\r\n<li>\r\n<p>unika
-    kontaktu wzrokowego (ok. 1-3 miesiąc),</p>\r\n</li>\r\n<li>\r\n<p>nie uśmiecha
-    się (ok. 1-3 miesiąc),</p>\r\n</li>\r\n<li>\r\n<p>nie gaworzy (ok. 5-7 miesiąc),</p>\r\n</li>\r\n<li>\r\n<p>nie
-    pokazuje palcem (ok. 1. rok życia),</p>\r\n</li>\r\n<li>\r\n<p>nie realizuje pola
-    wsp&oacute;lnej uwagi: nie skupia się na pokazywanym przedmiocie (ok. 1. rok życia),</p>\r\n</li>\r\n<li>\r\n<p>nie
-    naśladuje gest&oacute;w, zachowań, czynności.</p>\r\n</li>\r\n</ul>\r\n<p>W przypadku
-    powyższych niepokojących sygnał&oacute;w konieczna jest <strong>konsultacja z</strong><strong>logopedą</strong>.</p>\r\n<p><strong>Terapia
-    logopedyczna</strong> ma na celu nie tylko <strong>stymulację </strong><strong>komunikacji
-    werbalnej</strong>, ale i og&oacute;lnego rozwoju. Celem terapii jest także: <strong>integracja
-    wrażeń </strong><span style=\"color: #0000ff;\"><a href=\"http://pl.wikipedia.org/wiki/Zmysł\"><span
-    style=\"color: #000000;\"><span style=\"text-decoration: none;\"><strong>zmysłowych</strong></span></span></a></span>,
-    <strong>rozumienie i respektowanie reguł społecznych</strong> oraz relacji <strong>przyczynowo-skutkowych</strong>,
-    a także <strong>r&oacute;żnicowanie i wyrażanie uczuć</strong>, <strong>emocjonalna
-    samokontrola</strong>.</p>"
 ---
 {% extends 'parent' %}
+
+{% block main %}
+{% editable_text 'content' %}
+
+<h2>Zaburzenia komunikacji językowej</h2>
+<p><strong>Gabinet Logopedyczny Pszczółka</strong> pomaga dzieciom z <strong>zaburzeniami komunikacji językowej</strong> u podstaw których leży:</p>
+<ul>
+<li>
+<p><strong>afazja, </strong></p>
+</li>
+<li>
+<p><strong>alalia, </strong></p>
+</li>
+<li>
+<p><strong>dysartria, </strong></p>
+</li>
+<li>
+<p><strong>autyzm, </strong></p>
+</li>
+<li>
+<p><strong>zespół Aspergera, </strong></p>
+</li>
+<li>
+<p><strong>FAS, </strong></p>
+</li>
+<li>
+<p><strong>zespołu kruchego chromosomu, </strong></p>
+</li>
+<li>
+<p><strong>zespół Downa</strong></p>
+</li>
+<li>
+<p>i inne<strong> schorzenia neurologiczne i genetyczne</strong>.</p>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>Sygnałem do rozpoczęcia <strong>terapii logopedycznej</strong> jest nie tylko <strong>diagnoza pediatryczna 
+lub specjalistyczna</strong> (jak w przypadku <strong>afazji</strong>,<strong> alalii</strong>,<strong> zespołu 
+Downa</strong>), ale przede wszystkim niepokojące opiekunów zachowanie dziecka, które:</p>
+<ul>
+<li>
+<p>unika kontaktu wzrokowego (ok. 1-3 miesiąc),</p>
+</li>
+<li>
+<p>nie uśmiecha się (ok. 1-3 miesiąc),</p>
+</li>
+<li>
+<p>nie gaworzy (ok. 5-7 miesiąc),</p>
+</li>
+<li>
+<p>nie pokazuje palcem (ok. 1. rok życia),</p>
+</li>
+<li>
+<p>nie realizuje pola wspólnej uwagi: nie skupia się na pokazywanym przedmiocie (ok. 1. rok życia),</p>
+</li>
+<li>
+<p>nie naśladuje gestów, zachowań, czynności.</p>
+</li>
+</ul>
+<p>W przypadku powyższych niepokojących sygnałów konieczna jest <strong>konsultacja z</strong><strong>logopedą</strong>.</p>
+<p><strong>Terapia logopedyczna</strong> ma na celu nie tylko <strong>stymulację </strong><strong>komunikacji 
+werbalnej</strong>, ale i ogólnego rozwoju. Celem terapii jest także: <strong>integracja wrażeń </strong>
+<a href="http://pl.wikipedia.org/wiki/Zmysł"> <strong>zmysłowych</strong></a>, 
+<strong>rozumienie i respektowanie reguł społecznych</strong> oraz relacji <strong>przyczynowo-skutkowych</strong>, 
+a także <strong>różnicowanie i wyrażanie uczuć</strong>, <strong>emocjonalna samokontrola</strong>.</p>
+
+
+{% endeditable_text %}
+{% endblock %}
