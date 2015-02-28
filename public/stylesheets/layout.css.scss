@@ -1,0 +1,371 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  background-color: #9dd24c;
+  padding: 0;
+  margin: 0;
+}
+
+table#floater {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+
+  > tbody > tr > td {
+    background-color: #81d8e3;
+    background-image: url(../images/bg.jpg);
+    background-position: -150px -200px;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+  }
+}
+
+#main-frame {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+
+  /* clear: both;
+  position: relative; */
+
+  /*border: 2px solid #fe7919;
+  border-radius: 0px;
+  background-color: #458fff;*/
+
+  overflow: hidden;
+}
+
+h1 {
+  position: fixed;
+  top: 10px;
+  width: 100%;
+  margin: 15px;
+  margin-right: 150px;
+  font-family: Calibri, sans;
+  font-size: 34pt;
+  color: #ffffff;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+h2 {
+  font-family: Calibri, sans;
+  font-size: 24pt;
+}
+
+#bee {
+  top: 20px;
+  right: 50px;
+  position: absolute;
+  width: 200px;
+  height: 192px;
+  background-image: url(../images/bee.png);
+}
+
+#caterpillar {
+  bottom: 0px;
+  right: 0;
+  position: absolute;
+  width: 133px;
+  height: 166px;
+  background-image: url(../images/caterpillar.gif);
+}
+
+#ladybug {
+  bottom: 40px;
+  left: 390px;
+  position: absolute;
+  width: 95px;
+  height: 68px;
+  background-image: url(../images/ladybug.gif);
+}
+
+/* navigation */
+
+#navigation {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* background-color: #81d8e3; */
+  background-image: url(../images/bg_h.jpg);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: auto 75%;
+}
+
+#main-frame.slide-left {
+  /*height: 90%;
+  -webkit-transition: all 0.5s ease-in-out;*/
+}
+
+#main-frame.slide-left #content {
+  -webkit-transform: translate(-900px, 0);
+  -webkit-transition: all 0.5s ease-in-out;
+}
+
+/* leaves */
+#navigation {
+  .leaves {
+    position: absolute;
+  }
+
+  #leaves-lb {
+    bottom: 0;
+    left: 0;
+    width: 516px;
+    height: 438px;
+    background-image: url(../images/leaves_lb.png);
+  }
+
+  #leaves-rb {
+    bottom: 0;
+    right: 0;
+    width: 310px;
+    height: 220px;
+    background-image: url(../images/leaves_rb.png);
+  }
+
+  /* flowers */
+  .flower {
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    text-shadow: 0px 0px 3px #FFF;
+    font-weight: bold;
+    color: #14181F;
+    font-family: Calibri, sans;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+
+    p {
+      margin: 0;
+      padding: 5px;
+    }
+
+    &:hover {
+      opacity: 0.85;
+    }
+  }
+
+  #flower-01 {
+    bottom: 180px;
+    left: 110px;
+    width: 128px;
+    height: 112px;
+    background-image: url(../images/ost_01.png);
+
+    p { margin-top: 24px; }
+
+    &.visited {
+      bottom: 175px;
+      left: 110px;
+      width: 128px;
+      height: 128px;
+      background-image: url(../images/dand_01.png);
+
+      p { margin-top: 35px; }
+    }
+  }
+
+  #flower-02 {
+    bottom: 250px;
+    left: 25px;
+    width: 120px;
+    height: 105px;
+    background-image: url(../images/ost_02.png);
+
+    p { margin-top: 24px; }
+
+    &.visited {
+      bottom: 240px;
+      left: 25px;
+      width: 120px;
+      height: 123px;
+      background-image: url(../images/dand_02.png);
+
+      p { margin-top: 32px; }
+    }
+  }
+
+  #flower-03 {
+    bottom: 140px;
+    left: 5px;
+    width: 124px;
+    height: 109px;
+    background-image: url(../images/ost_03.png);
+
+    p { margin-top: 36px; }
+
+    &.visited {
+      bottom: 134px;
+      left: 5px;
+      width: 124px;
+      height: 122px;
+      background-image: url(../images/dand_03.png);
+
+      p { margin-top: 42px; }
+    }
+  }
+
+  #flower-04 {
+    bottom: 70px;
+    left: 80px;
+    width: 121px;
+    height: 84px;
+    background-image: url(../images/ost_04.png);
+
+    p { margin-top: 22px; }
+
+    &.visited {
+      bottom: 53px;
+      left: 80px;
+      width: 121px;
+      height: 121px;
+      background-image: url(../images/dand_04.png);
+
+      p { margin-top: 42px; }
+    }
+  }
+
+  #flower-05 {
+    bottom: 350px;
+    left: 20px;
+    width: 100px;
+    height: 99px;
+    background-image: url(../images/ost_05.png);
+
+    p { margin-top: 26px; }
+
+    &.visited {
+      bottom: 346px;
+      left: 15px;
+      width: 110px;
+      height: 111px;
+      background-image: url(../images/dand_05.png);
+
+      p { margin-top: 14px; }
+    }
+  }
+
+  #flower-06 {
+    bottom: 295px;
+    left: 120px;
+    width: 124px;
+    height: 110px;
+    background-image: url(../images/ost_06.png);
+
+    p { margin-top: 24px; }
+
+    &.visited {
+      bottom: 285px;
+      left: 118px;
+      width: 128px;
+      height: 132px;
+      background-image: url(../images/dand_06.png);
+
+      p { margin-top: 36px; }
+    }
+  }
+
+  #flower-07 {
+    bottom: 60px;
+    right: 96px;
+    width: 126px;
+    height: 110px;
+    background-image: url(../images/ost_07.png);
+
+    p { margin-top: 16px; }
+
+    &.visited {
+      bottom: 51px;
+      right: 96px;
+      width: 126px;
+      height: 127px;
+      background-image: url(../images/dand_07.png);
+
+      p { margin-top: 24px; }
+    }
+  }
+
+  /* leaves */
+  .leave {
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    text-shadow: 0px 0px 8px #000;
+    font-weight: bold;
+    color: #fff799;
+    color: #F2EC9D;
+    font-family: Calibri, sans;
+    font-size: 16pt;
+    text-align: center;
+    text-decoration: none;
+
+    p {
+      margin: 0;
+      padding: 5px;
+    }
+
+    &:hover {
+      color: #d4cc6e;
+      color: #fff799;
+    }
+  }
+
+  #leave-01 {
+    bottom: 168px;
+    right: 68px;
+  }
+
+  #leave-02 {
+    width: 210px;
+    bottom: 10px;
+    left: 300px;
+    display: none;
+  }
+
+  #leave-03 {
+    bottom: 20px;
+    left: 220px;
+  }
+
+  #leave-04 {
+    bottom: 18px;
+    right: 113px;
+    display: none;
+  }
+
+  #leave-05 {
+    bottom: 20px;
+    right: 110px;
+  }
+}
+
+/* content */
+
+#content {
+  position: absolute;
+  left: 220px;
+  right: 220px;
+  top: 120px;
+  bottom: 120px;
+  overflow: auto;
+  border: 2px solid #fe7919;
+  border: 8px solid #4B77B9;
+  border: 2px solid rgba(178, 224, 232, 0.63);
+  border-radius: 20px;
+  border-radius: 0;
+  padding: 30px;
+  padding-right: 10px;
+  /* padding-bottom: 100px; */
+  background-color: #458fff;
+  background-color: #9dd24c;
+  background-color: #ddf7a9;
+  background-color: #DAECB6;
+  background-color: rgba(232, 248, 253, 0.95);
+  background-color: rgba(247, 247, 253, 0.90);
+}

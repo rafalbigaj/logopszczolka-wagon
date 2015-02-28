@@ -1,0 +1,98 @@
+!!! 5
+/[if lt IE 7]
+  %html.no-js.lt-ie9.lt-ie8.lt-ie7
+/[if IE 7]
+  %html.no-js.lt-ie9.lt-ie8
+/[if IE 8]
+  %html.no-js.lt-ie9
+/[if gt IE 8]
+  %html.no-js
+
+%head
+  %meta{:charset => 'utf-8'}
+  %meta{'http-equiv' => 'X-UA-Compatible', :content => 'IE=edge,chrome=1'}
+  %title
+    {{ page.title }}
+  %meta{:name => "description", :content => ""}
+  %meta{:name => "viewport", :content => "width=device-width"}
+  {{ "normalize.css" | stylesheet_tag }}
+  {{ "jquery.mCustomScrollbar.css" | stylesheet_tag }}
+  {{ "main.css" | stylesheet_tag }}
+  {{ "layout.css" | stylesheet_tag }}
+  {{ "vendor/modernizr-2.6.2.min.js" | javascript_tag  }}
+  {{ "vendor/jquery-1.9.0.min.js" | javascript_tag  }}
+  {{ "vendor/jquery.mousewheel.js" | javascript_tag  }}
+  {{ "vendor/jquery.mCustomScrollbar.js" | javascript_tag  }}
+  {{ "plugins.js" | javascript_tag  }}
+  {{ "main.js" | javascript_tag  }}
+  {% inline_editor %}
+%body
+  %table#floater
+    %tr
+      %td
+        #main-frame
+          #navigation
+            #content
+              {% editable_text 'content' %}
+
+              %h2
+                O Pszczółce
+
+              %p
+                Misją Gabinetu Logopedycznego Pszczółka jest gruntowna diagnoza (na którą składa się badanie wszystkich
+                funkcji psychicznych, fizycznych i ocena rozwoju mowy dziecka) oraz efektywna indywidualna terapia.
+
+              %p
+                Gabinet Logopedyczny Pszczółka opieką obejmuje już kilkumiesięczne niemowlęta, gdyż wczesna interwencja
+                logopedyczna daje dziecku szansę na prawidłowy rozwój.
+                Stymulacji takiej powinny zostać poddane dzieci, u których zauważa się brak pewnych zachowań
+                komunikacyjnych (m.in.: brak kontaktu wzrokowego, niepodążanie wzrokiem za bliskimi, brak gaworzenia).
+
+              %p
+                U dzieci starszych prowadzona jest terapia wad wymowy, takich jak: niezakończony rozwój mowy, opóźniony
+                rozwój mowy, seplenienie, kapacyzm, reranie.
+
+              %p
+                W zakresie działalności Gabinetu Logopedycznego Pszczółka leży także profilaktyka i terapia dysleksji,
+                diagnozowanie w kierunku zagrożenia dysleksją, a także terapia zaburzeń mowy i komunikacji o typie
+                afazji, alalii i autyzmu.
+
+              %p
+                Terapia prowadzona jest Metodą Krakowską i opiera się na nauce czytania metodą symultaniczno-sekwencyjną
+                autorstwa prof. Jagody Cieszyńskiej.
+
+              {% endeditable_text %}
+            %h1
+              Gabinet Logopedyczny Pszczółka
+            #bee
+            #leaves-lb.leaves
+            #leaves-rb.leaves
+            %a#flower-01.flower{:href => "nauka-czytania"}
+              %p NAUKA CZYTANIA
+            %a#flower-02.flower{:href => "zaburzenia-komunikacji-jezykowej"}
+              %p ZABURZENIA KOMUNIKACJI
+            %a#flower-03.flower{:href => "dysleksja"}
+              %p DYSLEKSJA
+            %a#flower-04.flower{:href => "terapeuci"}
+              %p TERAPEUCI
+            %a#flower-05.flower{:href => "/"}
+              %p O PSZCZÓŁCE
+            %a#flower-06.flower{:href => "wady-wymowy"}
+              %p WADY WYMOWY
+            %a#flower-07.flower{:href => "kontakt-cennik"}
+              %p KONTAKT<br>I<br>CENNIK
+            // %a#leave-01.leave{href: "galeria"}
+            //  %p Galeria
+            %a#leave-02.leave{href: "pomoce-gry-zabawy"}
+              %p Pomoce, gry i zabawy do pobrania
+            %a#leave-03.leave{href: "logopeda-radzi"}
+              %p Logopeda radzi
+            %a#leave-04.leave{href: "zadaj-pytanie"}
+              %p Zadaj pytanie
+            %a#leave-05.leave{href: "partnarzy"}
+              %p Partnerzy
+            #caterpillar
+            #ladybug
+  :javascript
+    bindFlowers();
+    {% google_analytics 'UA-19446871-2' %}

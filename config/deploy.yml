@@ -1,0 +1,15 @@
+development:
+  host: localhost:8080
+  email: rafal.bigaj@gmail.com
+  # password: 
+  api_key: dc609dd96a40474acefdfc1b39261ed2e0921f7d
+# staging:
+#   host: staging.example.com
+#   email: john@doe.net
+#   password: apassword
+#   # api_key: <your api key here>
+production:
+   host: logo-cms-engine.herokuapp.com
+   email: rafal.bigaj@gmail.com
+   password: marysia123
+   api_key: 1768174a256e9e3d462026ebb812e3ffe0288a3e
