@@ -52,6 +52,8 @@ h1 {
 h2 {
   font-family: Calibri, sans;
   font-size: 24pt;
+  border-bottom: 2px solid #B3D4FC;
+  font-weight: bold;
 }
 
 #bee {
@@ -360,7 +362,7 @@ h2 {
   border-radius: 20px;
   border-radius: 0;
   padding: 30px;
-  padding-right: 10px;
+  /* padding-right: 10px; */
   /* padding-bottom: 100px; */
   background-color: #458fff;
   background-color: #9dd24c;
@@ -386,3 +388,7 @@ blockquote {
   }
 }
 
+/* Partners */
+a.partner {
+  color: black;
+}

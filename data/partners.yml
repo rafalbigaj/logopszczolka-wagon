@@ -1,0 +1,20 @@
+- "Sample 1":
+    link: "Architecto ab facilis qui praesentium laudantium magni sed."
+    description: "Voluptates excepturi eum sequi eos inventore error alias quia. Voluptatem quis ab velit cupiditate voluptas nostrum sapiente. Perferendis harum pariatur aut. Vero omnis ipsam veniam nihil sint nihil saepe quo."
+    image: null # Path to a file in the public/samples folder or to a remote and external file.
+
+- "Sample 2":
+    link: "Totam similique autem voluptatem enim."
+    description: "Laboriosam et iste odit aperiam. Velit rerum rerum non voluptatem. Voluptatem maiores ut aut. Aut impedit provident itaque et."
+    image: null # Path to a file in the public/samples folder or to a remote and external file.
+
+- "Sample 3":
+    link: "Labore ut ratione autem qui neque et."
+    description: "Saepe repellendus commodi est ab perferendis quo aut. Perspiciatis distinctio veritatis aperiam ea sed. Quisquam debitis magnam et."
+    image: null # Path to a file in the public/samples folder or to a remote and external file.
+
+- "Sample 4":
+    link: "Enim perspiciatis aut quo alias ullam eos dolore."
+    description: "Doloribus voluptas sed natus fugit. Sequi sapiente id impedit dolor quis. Non sit enim sint nemo. Dolores deleniti aliquam sit."
+    image: null # Path to a file in the public/samples folder or to a remote and external file.
+

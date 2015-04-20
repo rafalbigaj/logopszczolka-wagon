@@ -2,18 +2,29 @@
 title: Partnerzy
 slug: partnerzy
 listed: true
-published: false
-cache_strategy: none
+published: true
+cache_strategy: simple
 response_type: text/html
 position: 106
 ---
 {% extends 'parent' %}
 
 {% block main %}
-{% editable_text 'content' %}
 
-<h2>Partnerzy</h2>
+<h2>{{ page.title }}</h2>
 
+{% for partner in contents.partners %}
+  <a href="{{ partner.link }}>" class="partner">
+    <div class="row top-buffer">
+      <div class="col-md-4">
+        <img src="{{ partner.image.url }}" alt="{{ partner.title }}" class="img-thumbnail">
+      </div>
+      <div class="col-md-8">
+          <h4>{{ partner.title }}</h4>
+          {{ partner.description }}
+      </div>
+    </div>
+  </a>
+{% endfor %}
 
-{% endeditable_text %}
 {% endblock %}

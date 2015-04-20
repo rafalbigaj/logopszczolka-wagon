@@ -2,50 +2,36 @@
 title: Terapeuci
 slug: terapeuci
 listed: true
-published: false
-cache_strategy: none
+published: true
+cache_strategy: simple
 response_type: text/html
 position: 106
 ---
 {% extends 'parent' %}
 
 {% block main %}
-{% editable_text 'content' %}
 
-<h2>Terapeuci</h2>
+<h2>{{ page.title }}</h2>
 
-<div class="row top-buffer">
-  <div class="col-md-4">
-    <img src="images/terapeuci/marysia.jpg" alt="Maria Bigaj" class="img-thumbnail">
-  </div>
-  <div class="col-md-8">
-      <h3>Maria Bigaj</h3>
+{% for employee in contents.employees %}
+    {% assign imod2 = forloop.index | modulo: 2 %}
+    <div class="row top-buffer">
+      {% if imod2 == 1 %}
+      <div class="col-md-4">
+        <img src="{{ employee.photo.url }}" alt="{{ employee.name }}" class="img-thumbnail">
+      </div>
+      {% endif %}
+      <div class="col-md-8">
+          <h3>{{ employee.name }}</h3>
 
-      <p>Jestem absolwentką Uniwersytetu Jagiellońskiego, kierunku filologia polska, oraz podyplomowych studiów
-        logopedycznych w Instytucie Filologii Polskiej Uniwersytetu Pedagogicznego w Krakowie.</p>
+          {{ employee.description }}
+      </div>
+      {% if imod2 == 0 %}
+      <div class="col-md-4">
+        <img src="{{ employee.photo.url }}" alt="{{ employee.name }}" class="img-thumbnail">
+      </div>
+      {% endif %}
+    </div>
+{% endfor %}
 
-      <p>Prowadzę terapię dzieci zagrożonych dysleksją, autystycznych, z zespołem Aspergera i z zaburzeniami
-        komunikacji językowej. Jestem mamą trzech wyjątkowych córeczek.</p>
-  </div>
-</div>
-
-<div class="row top-buffer">
-  <div class="col-md-8">
-      <h3>Anna Kostyra</h3>
-
-      <p>Jestem absolwentką studiów magisterskich kierunku pedagogika - animacja kultury (UJ)
-      oraz studiów podyplomowych logopedycznych (UP).</p>
-
-      <p>Szczególnie interesują mnie problemy dotyczące ryzyka dysleksji i dysleksji u dzieci w wieku przedszkolnym
-      i wczesnoszkolnym. Obecnie prowadzę terapię z dziećmi od 2,5 do 14 lat z różnymi zaburzeniami komunikacji językowej,
-      między innymi: ryzykiem dysleksji, dysleksją, autyzmem, Zespołem Aspergera, alalią oraz wadami wymowy.</p>
-
-      <p>Prywatnie jestem mamą dwóch fantastycznych dziewczynek.</p>
-  </div>
-  <div class="col-md-4">
-    <img src="images/terapeuci/ania.jpg" alt="Anna Kostyra" class="img-thumbnail">
-  </div>
-</div>
-
-{% endeditable_text %}
 {% endblock %}

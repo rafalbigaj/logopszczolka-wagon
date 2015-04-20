@@ -2,8 +2,8 @@
 title: Logopeda radzi
 slug: logopeda-radzi
 listed: true
-published: false
-cache_strategy: none
+published: true
+cache_strategy: simple
 response_type: text/html
 position: 107
 #editable_elements:
@@ -12,90 +12,19 @@ position: 107
 {% extends 'parent' %}
 
 {% block main %}
-{% editable_text 'content' %}
 
-<h2>Logopeda radzi - Porady logopedy</h2>
+<h2>{{ page.title }}</h2>
 
-<blockquote class="question">
-    <p>Czy skuteczniejsze są <strong>zajęcia logopedyczne</strong> w domu czy w <strong>gabinecie logopedycznym</strong>?</p>
-    <footer>Anna</footer>
-</blockquote>
+{% for question in contents.questions %}
+    <blockquote class="question">
+        {{ question.question }}
+        <footer>{{ question.customer }}</footer>
+    </blockquote>
 
-<blockquote class="answer">
-    <p><strong>Gabinet logopedyczny</strong> sprzyja
-           koncentracji i wydajnej pracy. Przyjaźnie urządzony, wyposażony we wszystkie pomoce
-           niezbędne przy <strong>terapii wad wymowy</strong> i <strong>zaburzeń komunikacyjnych
-           </strong>zapewnia wygodę i spokój, daje poczucie bezpieczeństwa, komfortu
-           i spokoju.</p>
-       <p>W domu, gdzie krzątają się bliscy, pełno jest wokół
-           zabawek i atrakcji, często trudno o skupienie i mobilizację, która jest
-           niezmiernie ważna w <strong>terapii logopedycznej</strong>.</p>
-       <p>W niektórych
-           przypadkach jednak <strong>terapia logopedyczna</strong> w domu jest konieczna
-           (dzieci niepełnosprawne, mające problemy z poruszaniem się, źle znoszące podróż,
-           etc.).</p>
-       <p>W tych wyjątkowych okolicznościach, trzeba <strong>diagnozę i
-           terapię logopedyczną</strong> ustalić indywidualnie z <strong>logopedą</strong>.</p>
-    <footer>Pszczółka - Gabinet Logopedyczny w Krakowie</footer>
-</blockquote>
+    <blockquote class="answer">
+        {{ question.answer }}
+        <footer>{{ question.staff }}</footer>
+    </blockquote>
+{% endfor %}
 
-
-<blockquote class="question">
-    <p>Czy u <strong>logopedy</strong> powinna przebywać z dzieckiem mama?</p>
-    <footer>Grażyna</footer>
-</blockquote>
-
-<blockquote class="answer">
-    <p>Wszystko zależy od wieku
-           i zaburzenia, z jakim u <strong>logopedy</strong> pojawia się dziecko<strong>.
-           </strong>Jeśli jest bardzo malutkie lub niesamodzielne, z poważnymi problemami
-           zdrowotnymi wskazane jest, by w <strong>gabinecie logopedycznym</strong> asystował
-           mu rodzic<strong>. </strong>Dzieci starsze, samodzielne ćwiczą tylko z <strong>logopedą</strong>.</p>
-       <p>Ważne jest jednak to, by po każdych zajęciach rodzic znalazł czas, by omówił
-           z <strong>logopedą p</strong>ostępy <strong>terapii logopedycznej</strong>, odebrał
-           zalecenia &ndash; ćwiczenia do wykonania w domu.</p>
-    <footer>Pszczółka - Gabinet Logopedyczny w Krakowie</footer>
-</blockquote>
-
-
-<blockquote class="question">
-    <p>Czy możliwe jest, że u dziecka występuje zarówno <strong>seplenienie</strong>,
-           <strong>reranie</strong>, jak i <strong>kapacyzm</strong>? Co jest powodem, że
-           występują te wszystkie <strong>wady wymowy</strong>?</p>
-    <footer>Zosia</footer>
-</blockquote>
-
-<blockquote class="answer">
-    <p>Najlepiej podłożem wszystkich
-           tych <strong>wad wymowy</strong> jest obniżona sprawność artykulacyjna, ograniczona
-           nieruchomość języka, która uniemożliwia jego pionizację przy głoskach sz,
-           ż, cz, dż (<strong>seplenienie</strong>), głosce r (<strong>reranie</strong>)
-           i cofanie do tyłu przy głoskach k i g (<strong>kapacyzm</strong>). Zalecana jest
-           wobec dziecka wnikliwa <strong>diagnoza logopedyczna</strong> i zastosowanie <strong>terapii
-           wad wymowy</strong> w odpowiedniej kolejności. Im szybciej dziecko zostanie objęte
-           opieką <strong>logopedy</strong>, tym większa szansa na wypracowanie <strong>poprawnej
-           wymowy</strong>.</p>
-    <footer>Pszczółka - Gabinet Logopedyczny w Krakowie</footer>
-</blockquote>
-
-
-<blockquote class="question">
-    <p>Czy pediatra jest w stanie wykryć <strong>autyzm</strong>?</p>
-    <footer>Barbara</footer>
-</blockquote>
-
-<blockquote class="answer">
-    <p>Pediatra podczas badania
-           powinien zwrócić uwagę na nietypowe zachowanie dziecka, nie chęć do <strong>komunikacji
-           językowej</strong>, wzrokowej, dotykowej. Zdarza się, że takie objawy bywają bagatelizowane
-           i tłumaczone nieśmiałością, złym nastrojem dziecka. Gdy już dziecko roczne nie
-           mówi, nie komunikuje się, nie reaguje na polecenia powinien je <strong>zdiagnozować
-           logopeda</strong>. <strong>Autyzm</strong> wykryty wcześnie, intensywna <strong>terapia
-           logopedyczna</strong>, systematyczna praca z <strong>logopedą </strong>i w domu
-           może przynieść naprawdę spektakularne rezultaty.</p>
-    <footer>Pszczółka - Gabinet Logopedyczny w Krakowie</footer>
-</blockquote>
-
-
-{% endeditable_text %}
 {% endblock %}
