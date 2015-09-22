@@ -1,58 +1,38 @@
-# Human readable name of this type
+---
 name: Questions
-
-# Lowercase, underscored handle used to access this type
-slug: questions
-
-# Explanatory text displayed in the back-office
 description: A description of the content type for the editors
-
-# Slug of field used to identify entries by default, such as the title
+slug: questions
 label_field_name: question
-
-# Valid values: manually, created_at, updated_at, or the slug of any field
 order_by: manually
-
-# Valid values: asc (ascending) and desc (descending). Set to asc by default.
-# order_direction: asc
-
-# Specify a field slug to group entries by that field in the back-office.
-# group_by: <your field>
-
-# Activate public 'create' API (e.g for a contact form)
-# public_submission_enabled: false
-
-# Array of emails to be notified of new entries made with the public API
-# public_submission_accounts: ['john@example.com']
-
-# A list describing each field
-fields: 
-- question: # The lowercase, underscored name of the field
-    label: Question # Human readable name of the field
+order_direction: asc
+fields:
+- question:
+    label: Question
     type: text
+    hint: Explanatory text displayed in the back office
     required: true
-    hint: Explanatory text displayed in the back office
+    unique: false
     localized: false
-    text_formatting: html # html (uses rich text editor) or text (uses plain text editor)
-
-- customer: # The lowercase, underscored name of the field
-    label: Customer # Human readable name of the field
+    text_formatting: html
+- customer:
+    label: Customer
     type: string
-    required: false
     hint: Explanatory text displayed in the back office
+    required: false
+    unique: false
     localized: false
-
-- answer: # The lowercase, underscored name of the field
-    label: Answer # Human readable name of the field
+- answer:
+    label: Answer
     type: text
-    required: false
     hint: Explanatory text displayed in the back office
+    required: false
+    unique: false
     localized: false
-    text_formatting: html # html (uses rich text editor) or text (uses plain text editor)
-
-- staff: # The lowercase, underscored name of the field
-    label: Staff # Human readable name of the field
+    text_formatting: html
+- staff:
+    label: Staff
     type: string
-    required: false
     hint: Explanatory text displayed in the back office
+    required: false
+    unique: false
     localized: false

@@ -1,20 +1,34 @@
-- "Sample 1":
-    link: "Architecto ab facilis qui praesentium laudantium magni sed."
-    description: "Voluptates excepturi eum sequi eos inventore error alias quia. Voluptatem quis ab velit cupiditate voluptas nostrum sapiente. Perferendis harum pariatur aut. Vero omnis ipsam veniam nihil sint nihil saepe quo."
-    image: null # Path to a file in the public/samples folder or to a remote and external file.
-
-- "Sample 2":
-    link: "Totam similique autem voluptatem enim."
-    description: "Laboriosam et iste odit aperiam. Velit rerum rerum non voluptatem. Voluptatem maiores ut aut. Aut impedit provident itaque et."
-    image: null # Path to a file in the public/samples folder or to a remote and external file.
-
-- "Sample 3":
-    link: "Labore ut ratione autem qui neque et."
-    description: "Saepe repellendus commodi est ab perferendis quo aut. Perspiciatis distinctio veritatis aperiam ea sed. Quisquam debitis magnam et."
-    image: null # Path to a file in the public/samples folder or to a remote and external file.
-
-- "Sample 4":
-    link: "Enim perspiciatis aut quo alias ullam eos dolore."
-    description: "Doloribus voluptas sed natus fugit. Sequi sapiente id impedit dolor quis. Non sit enim sint nemo. Dolores deleniti aliquam sit."
-    image: null # Path to a file in the public/samples folder or to a remote and external file.
-
+---
+- Akademia Coachingu Rodzicielskiego:
+    _slug: akademia-coachingu-rodzicielskiego
+    link: http://akademiacr.pl/
+    description: "<p>Akademia Coachingu Rodzicielskiego &nbsp;jest miejscem dedykowanym
+      przede wszystkim rodzicom, ale też wychowawcom i nauczycielom &ndash; a więc
+      ludziom, kt&oacute;rym leży na sercu dobro i szczęście dziecka a także rodziny.</p>\r\n<p>W
+      jakim celu powstała Akademia Coachingu Rodzicielskiego?</p>\r\n<p>Akademia istnieje
+      po to, by wspierać, rozwijać i pomagać w realizacji zadania jakim jest RODZICIELSTWO!</p>"
+    image: "/samples/partners/akademia-coachingu-rodzicielskiego/akademiacr.jpg"
+- Klinika Małżeńska:
+    _slug: klinika-malzenska
+    link: http://klinikamalzenska.pl/
+    description: "<p><strong>Klinika Małżeńska</strong>&nbsp;powstała w 2013 roku
+      i została powołana przez&nbsp;<strong>Małopolskie Centrum Psychoterapii Sp.
+      z o.o</strong>. Klinika stanowi odpowiedź na wzrastająca potrzebę profesjonalnego
+      wsparcia dla par i małżeństw. Klinika jest pierwszą i jedyną tego typu plac&oacute;wką
+      w skali kraju.</p>\r\n<p><strong>Misją</strong>&nbsp;Kliniki Małżeńskiej jest&nbsp;<strong>wspierać
+      małżonk&oacute;w</strong>&nbsp;w umacnianiu, uzdrawianiu lub rekonstrukcji relacji.
+      Przyświeca nam zasada, że&nbsp;<strong>rozwiązujemy problemy, nie związki</strong>.
+      Dlatego naszym priorytetem jest zrobić wszystko, co możliwe, aby małżonkowie
+      utrzymali swoją relację i poprzez terapię lub warsztaty odbudowali ją na nowych
+      zasadach.</p>"
+    image: "/samples/partners/klinika-malzenska/klinikamalzenska.jpg"
+- Dorota Bełtkiewicz:
+    _slug: dorota-beltkiewicz
+    link: http://dorotabeltkiewicz.pl/
+    description: '<p id="nazwisko">Dorota Bełtkiewicz jest&nbsp;<span id="filolog"
+      style="line-height: 1.5em;">filologiem polskim, logopedą,&nbsp;</span><span
+      id="terapelta" style="line-height: 1.5em;">biblio- i bajkoterapeutą, a także&nbsp;</span><span
+      id="autorka" style="line-height: 1.5em;">autorką utwor&oacute;w dla dzieci,
+      m. in.&nbsp;<span>interaktywnej książki z cyklu DBAJki-GADajki, tworzonej z
+      myślą o usprawnieniu dziecięcej wymowy.</span></span></p>'
+    image: "/samples/partners/dorota-beltkiewicz/dorotabeltkiewicz.jpg"

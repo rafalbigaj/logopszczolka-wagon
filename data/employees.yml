@@ -1,16 +1,46 @@
-- "Sample 1":
-    description: "Velit autem architecto reiciendis possimus reprehenderit ut repudiandae recusandae. Quasi ut et dicta molestias nihil sunt. Accusamus dignissimos culpa ut animi minima et voluptatem nisi. Non natus amet neque ut et. Dolorem tempore corrupti et atque sint eos perferendis."
-    photo: null # Path to a file in the public/samples folder or to a remote and external file.
-
-- "Sample 2":
-    description: "Quam harum maxime accusantium consectetur eum ut fuga. Animi quia illum alias accusamus corrupti dolor. Alias voluptatum autem maxime. Vitae corrupti cumque quo. Ex voluptas alias blanditiis qui qui eum omnis consequatur."
-    photo: null # Path to a file in the public/samples folder or to a remote and external file.
-
-- "Sample 3":
-    description: "Sit magnam omnis sint. Praesentium ut quia esse. Inventore aperiam est in consequatur ut voluptas. Et quia officia vero laudantium suscipit corporis ipsum."
-    photo: null # Path to a file in the public/samples folder or to a remote and external file.
-
-- "Sample 4":
-    description: "Et et asperiores et deleniti. Voluptas nisi sapiente placeat dolor commodi. Sit ipsam ea aperiam."
-    photo: null # Path to a file in the public/samples folder or to a remote and external file.
-
+---
+- Maria Bigaj:
+    _slug: maria-bigaj
+    description: "<p>Jestem absolwentką Uniwersytetu Jagiellońskiego, kierunku filologia
+      polska, oraz podyplomowych studi&oacute;w logopedycznych w Instytucie Filologii
+      Polskiej Uniwersytetu Pedagogicznego w Krakowie.</p>\r\n<p>Prowadzę terapię
+      dzieci zagrożonych dysleksją, autystycznych, z zespołem Aspergera i z zaburzeniami
+      komunikacji językowej. Jestem mamą trzech wyjątkowych c&oacute;reczek.</p>"
+    photo: "/samples/employees/maria-bigaj/marysia.jpg"
+- Anna Kostyra:
+    _slug: anna-kostyra
+    description: "<p>Jestem absolwentką studi&oacute;w magisterskich kierunku pedagogika
+      - animacja kultury (UJ) oraz studi&oacute;w podyplomowych logopedycznych (UP).</p>\r\n<p>Szczeg&oacute;lnie
+      interesują mnie problemy dotyczące ryzyka dysleksji i dysleksji u dzieci w wieku
+      przedszkolnym i wczesnoszkolnym. Obecnie prowadzę terapię z dziećmi od 2,5 do
+      14 lat z r&oacute;żnymi zaburzeniami komunikacji językowej, między innymi: ryzykiem
+      dysleksji, dysleksją, autyzmem, Zespołem Aspergera, alalią oraz wadami wymowy.</p>\r\n<p>Prywatnie
+      jestem mamą dw&oacute;ch fantastycznych dziewczynek.</p>"
+    photo: "/samples/employees/anna-kostyra/ania.jpg"
+- Olga Kogut:
+    _slug: olga-kogut
+    description: "<p>Jestem absolwentką studi&oacute;w magisterskich o kierunku pedagogika
+      społeczno &ndash; opiekuńcza (UJ), studi&oacute;w podyplomowych o kierunku nauczanie
+      przedszkolne i wczesnoszkolne (Ignatianum) oraz o kierunku logopedia (WSB).
+      Interesuję się zjawiskiem op&oacute;źnienia rozwoju mowy u dzieci.</p>\r\n<p>Prywatnie
+      miłośniczka herbat i motocykli.</p>"
+    photo: "/samples/employees/olga-kogut/OlgaKogut.jpg"
+- Dorota Bełtkiewicz:
+    _slug: dorota-beltkiewicz
+    description: "<p>Filolog polski, logopeda, absolwentka Uniwersytetu Pedagogicznego
+      w Krakowie, aktualnie doktorantka językoznawstwa szczeg&oacute;lnie interesująca
+      się wpływem bajkoterapii na rozw&oacute;j mowy dzieci lękowych. Opracowuje terapię
+      dzieci z wadami wymowy i rozwoju (dyslalią, dysleksją, autyzmem).</p>\r\n<p>Prowadzi&nbsp;<a
+      href=\"http://http//bajkomoda.blog.pl/\">bloga edukacyjnego Bajkomoda</a>, tworzy
+      bajki terapeutyczne oraz materiały dydaktyczne wykorzystywane przez plac&oacute;wki
+      oświatowe i wychowawcze. Mama p&oacute;łtorarocznego chłopca.</p>"
+    photo: "/samples/employees/dorota-beltkiewicz/dorotka.jpg"
+- Natalia Woźniak:
+    _slug: natalia-wozniak
+    _visible: false
+    description: "<p>Jestem absolwentką filologii polskiej z logopedią w Uniwersytecie
+      Pedagogicznym w Krakowie. Prowadzę terapię dzieci z op&oacute;źnionym rozwojem
+      mowy, dyslalią, alalią, afazją dziecięcą, dysleksją oraz zagrożonych dysleksją.
+      Bardzo ważny jest dla mnie dobry kontakt z dzieckiem i wzbudzanie w nim motywacji
+      do ćwiczeń, dlatego w swojej pracy stosuję metody oparte na działaniu i zabawie.</p>"
+    photo: "/samples/employees/natalia-wozniak/natalia.jpg"
