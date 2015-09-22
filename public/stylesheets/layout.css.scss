@@ -1,3 +1,21 @@
+@mixin respond-to($media) {
+  @if $media == xs {
+    @media only screen and (max-width: 767px) { @content; }
+  }
+  @else if $media == sm {
+    @media only screen and (min-width: 768px) and (max-width: 991px) { @content; }
+  }
+  @else if $media == md {
+    @media only screen and (min-width: 992px) and (max-width: 1199px) { @content; }
+  }
+  @else if $media == lg {
+    @media only screen and (min-width: 1200px) { @content; }
+  }
+  @else if $media == ml {
+    @media only screen and (min-width: 992px) { @content; }
+  }
+}
+
 body, html {
   width: 100%;
   height: 100%;
@@ -25,14 +43,6 @@ table#floater {
   margin: 0;
   width: 100%;
   height: 100%;
-
-  /* clear: both;
-  position: relative; */
-
-  /*border: 2px solid #fe7919;
-  border-radius: 0px;
-  background-color: #458fff;*/
-
   overflow: hidden;
 }
 
@@ -47,6 +57,8 @@ h1 {
   color: #ffffff;
   text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
   text-align: center;
+
+  @include respond-to(sm) { font-size: 28pt; }
 }
 
 h2 {
@@ -57,12 +69,14 @@ h2 {
 }
 
 #bee {
-  top: 20px;
-  right: 50px;
+  top: 66px;
+  right: 20px;
   position: absolute;
   width: 200px;
   height: 192px;
   background-image: url(../images/bee.png);
+
+  @include respond-to(sm) { display: none; }
 }
 
 #caterpillar {
@@ -96,20 +110,9 @@ h2 {
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: auto 75%;
-}
+  @include respond-to(sm) { background-image: none; }
 
-#main-frame.slide-left {
-  /*height: 90%;
-  -webkit-transition: all 0.5s ease-in-out;*/
-}
-
-#main-frame.slide-left #content {
-  -webkit-transform: translate(-900px, 0);
-  -webkit-transition: all 0.5s ease-in-out;
-}
-
-/* leaves */
-#navigation {
+  /* leaves */
   .leaves {
     position: absolute;
   }
@@ -128,6 +131,10 @@ h2 {
     width: 310px;
     height: 220px;
     background-image: url(../images/leaves_rb.png);
+    @include respond-to(sm) {
+      bottom: -20px;
+      right: -80px;
+    }
   }
 
   /* flowers */
@@ -344,6 +351,7 @@ h2 {
   #leave-05 {
     bottom: 20px;
     right: 110px;
+    @include respond-to(sm) { right: 80px; }
   }
 }
 
@@ -361,20 +369,32 @@ h2 {
   border: 2px solid rgba(178, 224, 232, 0.63);
   border-radius: 20px;
   border-radius: 0;
-  padding: 30px;
-  /* padding-right: 10px; */
-  /* padding-bottom: 100px; */
+  padding: 10px 50px 50px;
   background-color: #458fff;
   background-color: #9dd24c;
   background-color: #ddf7a9;
   background-color: #DAECB6;
   background-color: rgba(232, 248, 253, 0.95);
   background-color: rgba(247, 247, 253, 0.90);
+
+  @include respond-to(sm) { right: 40px; }
+  @include respond-to(lg) { padding: 10px 80px 80px; }
+
+  > .spacer {
+    min-height: 100px;
+    height: 100px;
+  }
 }
 
 /* Helpers */
 
 .top-buffer { margin-top:20px; }
+
+.img-small {
+  max-width: 180px;
+  float: right;
+  margin-bottom: 5px;
+  margin-left: 5px; }
 
 /* Q&A */
 
@@ -391,4 +411,30 @@ blockquote {
 /* Partners */
 a.partner {
   color: black;
+}
+
+/* Contact */
+
+#contact-map {
+  width: 600px;
+  height: 350px;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+#google-maps-canvas {
+  height:100%;
+  width:100%;
+  max-width:100%;
+
+  iframe {
+    height:100%;
+    width:100%;
+    border:0;
+  }
+
+  img {
+    max-width:none !important;
+    background:none !important;
+  }
 }

@@ -18,17 +18,21 @@ seo_title: Terapeuci w Gabinecie Logopedycznym Pszczółka w Krakowie
     {% assign imod2 = forloop.index | modulo: 2 %}
     <div class="row top-buffer">
       {% if imod2 == 1 %}
-      <div class="col-md-4">
+      <div class="col-md-4 hidden-xs hidden-sm">
         <img src="{{ employee.photo.url }}" alt="{{ employee.name }}" class="img-thumbnail">
       </div>
       {% endif %}
       <div class="col-md-8">
+          <div class="text-center hidden-md hidden-lg">
+            <img src="{{ employee.photo.url }}" alt="{{ employee.name }}" class="img-thumbnail img-small">
+          </div>
+
           <h3>{{ employee.name }}</h3>
 
           {{ employee.description }}
       </div>
       {% if imod2 == 0 %}
-      <div class="col-md-4">
+      <div class="col-md-4 hidden-xs hidden-sm">
         <img src="{{ employee.photo.url }}" alt="{{ employee.name }}" class="img-thumbnail">
       </div>
       {% endif %}
