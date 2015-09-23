@@ -56,7 +56,8 @@ editable_elements:
   {{ "main.css" | stylesheet_tag }}
   {{ "layout.css" | stylesheet_tag }}
   {{ "vendor/modernizr-2.6.2.min.js" | javascript_tag  }}
-  {{ "vendor/jquery-1.9.0.min.js" | javascript_tag  }}
+  {{ "vendor/jquery-1.11.3.min.js" | javascript_tag  }}
+  {{ "vendor/bootstrap.js" | javascript_tag  }}
   {{ "vendor/jquery.mousewheel.js" | javascript_tag  }}
   {{ "vendor/jquery.mCustomScrollbar.js" | javascript_tag  }}
   {{ "plugins.js" | javascript_tag  }}
@@ -69,6 +70,30 @@ editable_elements:
       <td>
         <div id='main-frame'>
           <div id='navigation'>
+            <div id='mobile-navbar' class="container visible-xs">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Pszczółka</a>
+              </div>
+              <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+                <ul class="nav navbar-nav">
+                  <li><a href="/">O Pszczółce</a></li>
+                  <li><a href="/wady-wymowy">Wady wymowy</a></li>
+                  <li><a href="/zaburzenia-komunikacji-jezykowej">Zaburzenia komunikacji</a></li>
+                  <li><a href="/nauka-czytania">Nauka czytania</a></li>
+                  <li><a href="/dysleksja">Dysleksja</a></li>
+                  <li><a href="/terapeuci">Terapeuci</a></li>
+                  <li><a href="/logopeda-radzi">Logopeda radzi</a></li>
+                  <li><a href="/kontakt-cennik">Kontakt i cennik</a></li>
+                  <li><a href="/partnerzy">Partnerzy</a></li>
+                </ul>
+              </div><!--/.nav-collapse -->
+            </div>
             <div id='content'>
               {% block main %}
               {% editable_text 'content' %}
@@ -110,6 +135,7 @@ editable_elements:
               {% endblock %}
               <div class="spacer"></div>
             </div>
+          <div class="hidden-xs">
             <h1>
               Gabinet Logopedyczny "Pszczółka"
             </h1>
@@ -153,6 +179,7 @@ editable_elements:
             </a>
             <div id='caterpillar'></div>
             <div id='ladybug'></div>
+          </div>
           </div>
         </div>
       </td>

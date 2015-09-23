@@ -36,7 +36,9 @@ table#floater {
     background-position: -80px -200px;
     background-repeat: no-repeat;
     background-size: auto 70%;
-  }
+    
+    @include respond-to(xs) { background-image: none; }
+ }
 }
 
 #main-frame {
@@ -111,7 +113,7 @@ h2 {
   background-repeat: no-repeat;
   background-size: auto 75%;
   @include respond-to(sm) { background-image: none; }
-
+ 
   /* leaves */
   .leaves {
     position: absolute;
@@ -355,6 +357,15 @@ h2 {
   }
 }
 
+/* mobile navigation */
+
+#mobile-navbar {
+  position: absolute;
+  background-color: #D1E2F1;
+  width: 100%;
+  z-index: 1000;
+}
+
 /* content */
 
 #content {
@@ -377,6 +388,13 @@ h2 {
   background-color: rgba(232, 248, 253, 0.95);
   background-color: rgba(247, 247, 253, 0.90);
 
+  @include respond-to(xs) {
+    left: 0;
+    right: 0;
+    top: 50px;
+    bottom: 0;
+    padding: 10px; 
+  }
   @include respond-to(sm) { right: 40px; }
   @include respond-to(lg) { padding: 10px 80px 80px; }
 
