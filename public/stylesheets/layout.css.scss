@@ -357,15 +357,6 @@ h2 {
   }
 }
 
-/* mobile navigation */
-
-#mobile-navbar {
-  position: absolute;
-  background-color: #D1E2F1;
-  width: 100%;
-  z-index: 1000;
-}
-
 /* content */
 
 #content {
@@ -401,6 +392,10 @@ h2 {
   > .spacer {
     min-height: 100px;
     height: 100px;
+    @include respond-to(xs) { 
+      min-height: 20px;
+      height: 20px; 
+    }
   }
 }
 
