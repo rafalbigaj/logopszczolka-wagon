@@ -1,0 +1,697 @@
+(<unknown>): did not find expected key while parsing a block mapping at line 10 column 3
+	/home/rafal/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych.rb:370:in `parse'
+	/home/rafal/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych.rb:370:in `parse_stream'
+	/home/rafal/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych.rb:318:in `parse'
+	/home/rafal/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych.rb:245:in `load'
+	/home/rafal/.rvm/gems/ruby-2.1.4/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/utils/yaml_front_matters_template.rb:32:in `fetch_attributes_and_raw_source'
+	/home/rafal/.rvm/gems/ruby-2.1.4/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/utils/yaml_front_matters_template.rb:14:in `initialize'
+	/home/rafal/.rvm/gems/ruby-2.1.4/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/pages_reader.rb:132:in `new'
+	/home/rafal/.rvm/gems/ruby-2.1.4/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/pages_reader.rb:132:in `set_attributes_from_header'
+	/home/rafal/.rvm/gems/ruby-2.1.4/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/pages_reader.rb:87:in `block (2 levels) in fetch'
+	/home/rafal/.rvm/gems/ruby-2.1.4/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter.rb:99:in `with_locale'
+	/home/rafal/.rvm/gems/ruby-2.1.4/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/pages_reader.rb:86:in `block in fetch'
+	/home/rafal/.rvm/gems/ruby-2.1.4/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `each'
+	/home/rafal/.rvm/gems/ruby-2.1.4/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `fetch'
+	/home/rafal/.rvm/gems/ruby-2.1.4/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/pages_reader.rb:20:in `read'
+	/home/rafal/.rvm/gems/ruby-2.1.4/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/home/rafal/.rvm/gems/ruby-2.1.4/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/home/rafal/.rvm/gems/ruby-2.1.4/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/home/rafal/.rvm/gems/ruby-2.1.4/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/home/rafal/.rvm/gems/ruby-2.1.4/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/home/rafal/.rvm/gems/ruby-2.1.4/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/home/rafal/.rvm/gems/ruby-2.1.4/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon.rb:260:in `require_mounter'
+	/home/rafal/.rvm/gems/ruby-2.1.4/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon.rb:75:in `serve'
+	/home/rafal/.rvm/gems/ruby-2.1.4/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon/cli.rb:249:in `serve'
+	/home/rafal/.rvm/gems/ruby-2.1.4/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+	/home/rafal/.rvm/gems/ruby-2.1.4/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+	/home/rafal/.rvm/gems/ruby-2.1.4/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+	/home/rafal/.rvm/gems/ruby-2.1.4/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+	/home/rafal/.rvm/gems/ruby-2.1.4/gems/locomotivecms_wagon-1.5.0/bin/wagon:12:in `<top (required)>'
+	/home/rafal/.rvm/gems/ruby-2.1.4/bin/wagon:23:in `load'
+	/home/rafal/.rvm/gems/ruby-2.1.4/bin/wagon:23:in `<main>'
+	/home/rafal/.rvm/gems/ruby-2.1.4/bin/ruby_executable_hooks:15:in `eval'
+	/home/rafal/.rvm/gems/ruby-2.1.4/bin/ruby_executable_hooks:15:in `<main>'
+
+
+[0;97;49mStarted GET "/kontakt-cennik" at 2015-09-22 22:33:25 +0200[0m
+Detecting locale PL
+Found page "Kontakt i Cennik" [kontakt-cennik]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 6.0ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-09-22 22:35:17 +0200
+* Reloaded "pages", "snippets" at 2015-09-22 22:35:51 +0200
+* Reloaded "pages", "snippets" at 2015-09-22 22:36:46 +0200
+* Reloaded "pages", "snippets" at 2015-09-22 22:37:05 +0200
+[0;97;49mStarted GET "/kontakt-cennik" at 2015-09-22 22:59:58 +0200[0m
+Detecting locale PL
+Found page "Kontakt i Cennik" [kontakt-cennik]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.3ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-09-22 23:03:19 +0200
+* Reloaded "pages", "snippets" at 2015-09-22 23:04:21 +0200
+[0;97;49mStarted GET "/kontakt-cennik" at 2015-09-22 23:05:30 +0200[0m
+Detecting locale PL
+Found page "Kontakt i Cennik" [kontakt-cennik]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.5ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-09-23 13:34:50 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 11.2ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-09-23 13:35:03 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 9.1ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-09-23 13:36:51 +0200
+[0;97;49mStarted GET "/" at 2015-09-23 13:36:53 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.8ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-09-23 13:38:33 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.9ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-09-23 13:39:10 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.9ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-09-23 13:40:40 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 8.4ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-09-23 13:41:11 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.6ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-09-23 13:44:34 +0200
+[0;97;49mStarted GET "/" at 2015-09-23 13:44:38 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.1ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-09-23 16:58:48 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.4ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-09-23 17:21:15 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.2ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-09-23 17:23:30 +0200
+[0;97;49mStarted GET "/" at 2015-09-23 17:23:38 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.0ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-09-23 17:24:57 +0200
+[0;97;49mStarted GET "/" at 2015-09-23 17:25:00 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.1ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-09-23 18:22:58 +0200
+* Reloaded "pages", "snippets" at 2015-09-23 18:23:00 +0200
+* Reloaded "pages", "snippets" at 2015-09-23 18:23:30 +0200
+[0;97;49mStarted GET "/" at 2015-09-23 18:23:34 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.9ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-09-23 18:25:12 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.8ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-09-23 18:28:29 +0200
+[0;97;49mStarted GET "/" at 2015-09-23 18:28:31 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.5ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-09-23 18:28:47 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.4ms
+
+[0m
+[0;97;49mStarted GET "/zaburzenia-komunikacji-jezykowej" at 2015-09-23 18:28:56 +0200[0m
+Detecting locale PL
+Found page "Zaburzenia komunikacji językowej" [zaburzenia-komunikacji-jezykowej]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 11.3ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-09-23 18:29:39 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.4ms
+
+[0m
+[0;97;49mStarted GET "/zaburzenia-komunikacji-jezykowej" at 2015-09-23 18:31:18 +0200[0m
+Detecting locale PL
+Found page "Zaburzenia komunikacji językowej" [zaburzenia-komunikacji-jezykowej]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.2ms
+
+[0m
+[0;97;49mStarted GET "/nauka-czytania" at 2015-09-23 18:31:27 +0200[0m
+Detecting locale PL
+Found page "Nauka czytania" [nauka-czytania]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 12.0ms
+
+[0m
+[0;97;49mStarted GET "/kontakt-cennik" at 2015-09-23 18:31:34 +0200[0m
+Detecting locale PL
+Found page "Kontakt i Cennik" [kontakt-cennik]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.9ms
+
+[0m
+[0;97;49mStarted GET "/kontakt-cennik" at 2015-09-23 18:31:34 +0200[0m
+Detecting locale PL
+Found page "Kontakt i Cennik" [kontakt-cennik]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.9ms
+
+[0m
+[0;97;49mStarted GET "/terapeuci" at 2015-09-23 18:31:54 +0200[0m
+Detecting locale PL
+Found page "Terapeuci" [terapeuci]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 18.5ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-09-23 18:32:25 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.9ms
+
+[0m
+[0;97;49mStarted GET "/partnerzy" at 2015-09-23 18:34:15 +0200[0m
+Detecting locale PL
+Found page "Partnerzy" [partnerzy]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.4ms
+
+[0m
+[0;97;49mStarted GET "/partnerzy" at 2015-09-23 18:42:27 +0200[0m
+Detecting locale PL
+Found page "Partnerzy" [partnerzy]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.4ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-09-23 18:43:02 +0200
+[0;97;49mStarted GET "/partnerzy" at 2015-09-23 18:43:04 +0200[0m
+Detecting locale PL
+Found page "Partnerzy" [partnerzy]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 12.0ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-09-23 18:48:42 +0200
+[0;97;49mStarted GET "/partnerzy" at 2015-09-23 18:48:46 +0200[0m
+Detecting locale PL
+Found page "Partnerzy" [partnerzy]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.5ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-09-23 18:49:33 +0200
+[0;97;49mStarted GET "/partnerzy" at 2015-09-23 18:49:35 +0200[0m
+Detecting locale PL
+Found page "Partnerzy" [partnerzy]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 13.5ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-09-23 20:01:23 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+[0;31;49m[ERROR] undefined method `entries' for nil:NilClass - ./app/views/pages/index.liquid:31:in `Gabinet Logopedyczny Pszczółka w Krakowie'
+[0m
+* Reloaded "pages", "snippets" at 2015-09-23 20:05:33 +0200
+* Reloaded "pages", "snippets" at 2015-09-23 20:05:39 +0200
+* Reloaded "pages", "snippets" at 2015-09-23 20:05:55 +0200
+[0;97;49mStarted GET "/" at 2015-09-23 20:06:03 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.7ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-09-23 20:08:35 +0200
+* Reloaded "pages", "snippets" at 2015-09-23 20:08:43 +0200
+[0;97;49mStarted GET "/" at 2015-09-23 20:08:47 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.7ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-09-23 20:09:20 +0200
+[0;97;49mStarted GET "/" at 2015-09-23 20:09:22 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.2ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-09-23 20:09:49 +0200
+[0;97;49mStarted GET "/" at 2015-09-23 20:10:21 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.2ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-09-23 20:14:29 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.1ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-09-23 20:15:22 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.9ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-09-23 20:16:27 +0200
+[0;97;49mStarted GET "/" at 2015-09-23 20:16:31 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 12.7ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-09-23 20:17:19 +0200
+[0;97;49mStarted GET "/" at 2015-09-23 20:17:21 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.5ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-09-23 20:19:11 +0200
+[0;97;49mStarted GET "/" at 2015-09-23 20:19:15 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.0ms
+
+[0m
+[0;97;49mStarted GET "/kontakt-cennik" at 2015-09-23 20:21:53 +0200[0m
+Detecting locale PL
+Found page "Kontakt i Cennik" [kontakt-cennik]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.4ms
+
+[0m
+[0;97;49mStarted GET "/kontakt-cennik" at 2015-09-23 20:21:59 +0200[0m
+Detecting locale PL
+Found page "Kontakt i Cennik" [kontakt-cennik]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.0ms
+
+[0m
+[0;97;49mStarted GET "/wady-wymowy" at 2015-09-23 20:22:16 +0200[0m
+Detecting locale PL
+Found page "Wady wymowy" [wady-wymowy]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 8.6ms
+
+[0m
+[0;97;49mStarted GET "/kontakt-cennik" at 2015-09-23 20:26:28 +0200[0m
+Detecting locale PL
+Found page "Kontakt i Cennik" [kontakt-cennik]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.7ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-09-23 20:27:35 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.5ms
+
+[0m
+[0;97;49mStarted GET "/dysleksja" at 2015-09-23 20:27:42 +0200[0m
+Detecting locale PL
+Found page "Dysleksja" [dysleksja]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 33.8ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-09-23 20:29:51 +0200
+[0;97;49mStarted GET "/dysleksja" at 2015-09-23 20:29:53 +0200[0m
+Detecting locale PL
+Found page "Dysleksja" [dysleksja]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.9ms
+
+[0m
+[0;97;49mStarted GET "/nauka-czytania" at 2015-09-23 20:30:02 +0200[0m
+Detecting locale PL
+Found page "Nauka czytania" [nauka-czytania]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 8.9ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-09-23 20:31:37 +0200
+* Reloaded "pages", "snippets" at 2015-09-23 20:31:37 +0200
+[0;97;49mStarted GET "/nauka-czytania" at 2015-09-23 20:31:44 +0200[0m
+Detecting locale PL
+Found page "Nauka czytania" [nauka-czytania]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 6.2ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-09-23 20:31:53 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 9.5ms
+
+[0m
+[0;97;49mStarted GET "/wady-wymowy" at 2015-09-23 20:33:48 +0200[0m
+Detecting locale PL
+Found page "Wady wymowy" [wady-wymowy]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.5ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-09-23 20:35:54 +0200
+[0;97;49mStarted GET "/wady-wymowy" at 2015-09-23 20:36:06 +0200[0m
+Detecting locale PL
+Found page "Wady wymowy" [wady-wymowy]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 16.2ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-09-23 20:36:12 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.8ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-09-23 20:36:43 +0200
+* Reloaded "pages", "snippets" at 2015-09-23 20:36:44 +0200
+* Reloaded "pages", "snippets" at 2015-09-23 20:36:48 +0200
+[0;97;49mStarted GET "/" at 2015-09-23 20:36:50 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.6ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-09-23 20:37:07 +0200
+[0;97;49mStarted GET "/" at 2015-09-23 20:37:08 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.5ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-09-23 20:37:28 +0200
+[0;97;49mStarted GET "/" at 2015-09-23 20:37:29 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.8ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-09-23 20:37:59 +0200
+[0;97;49mStarted GET "/" at 2015-09-23 20:38:01 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.7ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-09-23 20:38:17 +0200
+[0;97;49mStarted GET "/" at 2015-09-23 20:38:52 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 43.5ms
+
+[0m
+[0;97;49mStarted GET "/nauka-czytania" at 2015-09-23 20:39:05 +0200[0m
+Detecting locale PL
+Found page "Nauka czytania" [nauka-czytania]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 6.4ms
+
+[0m
+[0;97;49mStarted GET "/wady-wymowy" at 2015-09-23 20:39:13 +0200[0m
+Detecting locale PL
+Found page "Wady wymowy" [wady-wymowy]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.9ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-09-23 20:39:41 +0200
+[0;97;49mStarted GET "/wady-wymowy" at 2015-09-23 20:39:43 +0200[0m
+Detecting locale PL
+Found page "Wady wymowy" [wady-wymowy]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 6.3ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-09-23 20:39:49 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 12.7ms
+
+[0m
+[0;97;49mStarted GET "/kontakt-cennik" at 2015-09-23 20:41:33 +0200[0m
+Detecting locale PL
+Found page "Kontakt i Cennik" [kontakt-cennik]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.8ms
+
+[0m
+[0;97;49mStarted GET "/kontakt-cennik" at 2015-09-23 20:53:32 +0200[0m
+Detecting locale PL
+Found page "Kontakt i Cennik" [kontakt-cennik]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.7ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-09-24 09:37:52 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 10.3ms
+
+[0m
+[0;97;49mStarted GET "/favicon-32x32.png" at 2015-09-24 09:37:56 +0200[0m
+Detecting locale PL
+[0;32;49mCompleted 404 Not Found in 57.6ms
+
+[0m
+[0;97;49mStarted GET "/favicon-194x194.png" at 2015-09-24 09:37:56 +0200[0m
+Detecting locale PL
+[0;32;49mCompleted 404 Not Found in 64.9ms
+
+[0m
+[0;97;49mStarted GET "/favicon-96x96.png" at 2015-09-24 09:37:56 +0200[0m
+Detecting locale PL
+[0;32;49mCompleted 404 Not Found in 5.9ms
+
+[0m
+[0;97;49mStarted GET "/android-chrome-192x192.png" at 2015-09-24 09:37:56 +0200[0m
+Detecting locale PL
+[0;32;49mCompleted 404 Not Found in 34.7ms
+
+[0m
+[0;97;49mStarted GET "/favicon-16x16.png" at 2015-09-24 09:37:56 +0200[0m
+Detecting locale PL
+[0;32;49mCompleted 404 Not Found in 19.8ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-09-24 09:38:24 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 6.2ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-09-24 09:39:13 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 6.4ms
+
+[0m
+[0;97;49mStarted GET "/favicon-16x16.png" at 2015-09-24 09:39:14 +0200[0m
+Detecting locale PL
+[0;32;49mCompleted 404 Not Found in 3.5ms
+
+[0m
+[0;97;49mStarted GET "/android-chrome-192x192.png" at 2015-09-24 09:39:14 +0200[0m
+Detecting locale PL
+[0;32;49mCompleted 404 Not Found in 3.3ms
+
+[0m
+[0;97;49mStarted GET "/favicon-96x96.png" at 2015-09-24 09:39:14 +0200[0m
+Detecting locale PL
+[0;32;49mCompleted 404 Not Found in 2.8ms
+
+[0m
+[0;97;49mStarted GET "/favicon-194x194.png" at 2015-09-24 09:39:14 +0200[0m
+Detecting locale PL
+[0;32;49mCompleted 404 Not Found in 3.7ms
+
+[0m
+[0;97;49mStarted GET "/favicon-32x32.png" at 2015-09-24 09:39:14 +0200[0m
+Detecting locale PL
+[0;32;49mCompleted 404 Not Found in 3.9ms
+
+[0m
+[0;97;49mStarted GET "/favicon-194x194.png" at 2015-09-24 09:39:19 +0200[0m
+Detecting locale PL
+[0;32;49mCompleted 404 Not Found in 4.6ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-09-24 09:39:39 +0200
+[0;97;49mStarted GET "/favicon-194x194.png" at 2015-09-24 09:39:41 +0200[0m
+Detecting locale PL
+[0;32;49mCompleted 404 Not Found in 12.4ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-09-24 09:40:04 +0200
+[0;97;49mStarted GET "/favicon-194x194.png" at 2015-09-24 09:40:06 +0200[0m
+Detecting locale PL
+[0;32;49mCompleted 404 Not Found in 7.9ms
+
+[0m
+[0;97;49mStarted GET "/apple-touch-icon-57x57.png" at 2015-09-24 09:40:15 +0200[0m
+Detecting locale PL
+[0;32;49mCompleted 404 Not Found in 4.1ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-09-24 09:46:02 +0200
+[0;97;49mStarted GET "/apple-touch-icon-57x57.png" at 2015-09-24 09:50:52 +0200[0m
+Detecting locale PL
+[0;32;49mCompleted 404 Not Found in 5.5ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-09-24 09:53:12 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 7.0ms
+
+[0m
+[0;97;49mStarted GET "/partnerzy" at 2015-09-24 09:53:22 +0200[0m
+Detecting locale PL
+Found page "Partnerzy" [partnerzy]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 76.7ms
+
+[0m
+[0;97;49mStarted GET "/partnerzy" at 2015-09-24 09:53:53 +0200[0m
+Detecting locale PL
+Found page "Partnerzy" [partnerzy]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 12.4ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-09-24 10:00:33 +0200
+* Reloaded "pages", "snippets" at 2015-09-24 10:00:48 +0200
+[0;97;49mStarted GET "/" at 2015-09-24 10:00:57 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+[0;31;49m[ERROR] Variable '{{' was not properly terminated with regexp: /\}\}/ - ./app/views/pages/index.liquid:64:in `Gabinet Logopedyczny Pszczółka w Krakowie'
+[0m
+[0;97;49mStarted GET "/partnerzy" at 2015-09-24 10:01:35 +0200[0m
+Detecting locale PL
+Found page "Partnerzy" [partnerzy]
+[0;31;49m[ERROR] Variable '{{' was not properly terminated with regexp: /\}\}/ - ./app/views/pages/partnerzy.liquid:11:in `Partnerzy'
+[0m
+* Reloaded "pages", "snippets" at 2015-09-24 10:03:10 +0200
+[0;97;49mStarted GET "/" at 2015-09-24 10:03:15 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.5ms
+
+[0m
+[0;97;49mStarted GET "/partnerzy" at 2015-09-24 10:05:41 +0200[0m
+Detecting locale PL
+Found page "Partnerzy" [partnerzy]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 8.1ms
+
+[0m
+[0;97;49mStarted GET "/partnerzy" at 2015-09-24 10:06:11 +0200[0m
+Detecting locale PL
+Found page "Partnerzy" [partnerzy]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 7.9ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-09-24 10:07:51 +0200
+* Reloaded "pages", "snippets" at 2015-09-24 10:07:53 +0200
+[0;97;49mStarted GET "/" at 2015-09-24 10:08:31 +0200[0m
+Detecting locale PL
+Found page "Gabinet Logopedyczny Pszczółka w Krakowie" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 16.0ms
+
+[0m
