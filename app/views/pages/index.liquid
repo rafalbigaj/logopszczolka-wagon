@@ -105,8 +105,7 @@ editable_elements:
                 </div>
                 <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
                   <ul class="nav navbar-nav">
-                    <li class="link index{% if page.fullpath == 'index' %} active{% endif %}"><a href="/">O Pszczółce</a></li>
-                  {% nav site, bootstrap: true, no_wrapper: true, active_class: 'active' %}
+                    {% nav site, bootstrap: true, no_wrapper: true, active_class: 'active' %}
                   </ul>
                 </div><!--/.nav-collapse -->
               </div>
@@ -154,7 +153,6 @@ editable_elements:
               <div class="panel panel-default visible-xs">
               <div class="panel-body">
                 <ul class="nav nav-pills nav-stacked">
-                  <li class="link index{% if page.fullpath == 'index' %} active{% endif %}"><a href="/">O Pszczółce</a></li>
                   {% nav site, bootstrap: true, no_wrapper: true, active_class: 'active' %}
                 </ul>
                 </div>
